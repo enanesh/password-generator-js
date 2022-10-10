@@ -24,6 +24,8 @@ function generatePassword() {
   var specialCharacters = ["\"", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "^", "_", "`", "{", "|", "}", "~", "\\", "]"];
 
 
+  // this variable fill whit the input criteria 
+
   var alphabet = [];
 
 
@@ -40,13 +42,15 @@ function generatePassword() {
   }
 
 
+  // User input
   var lowerInput = confirm("To Include lowecase. Click :OK");
   var upperInput = confirm("To Include UPPERCASE. Click OK");
   var numericInput = confirm("To Include numbers. Click: OK");
   var sprecialInput = confirm("To Include Special Characters. Click: OK");
 
 
- 
+
+
 
 
   /*converts lenght string into a number*/
@@ -66,6 +70,13 @@ function generatePassword() {
   }
   if (sprecialInput == true) {
     alphabet = alphabet.concat(specialCharacters);
+  }
+
+  // validates if user selected at least 1 option
+
+  if (alphabet.length === 0) {
+    alert("You have to choose at least one option!")
+    return "";
   }
 
 
