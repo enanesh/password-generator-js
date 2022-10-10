@@ -43,10 +43,10 @@ function generatePassword() {
 
 
   // User input
-  var lowerInput = confirm("To Include lowecase. Click :OK");
-  var upperInput = confirm("To Include UPPERCASE. Click OK");
-  var numericInput = confirm("To Include numbers. Click: OK");
-  var sprecialInput = confirm("To Include Special Characters. Click: OK");
+  var lowerInput = confirm("To Include Lowercase.e.g(a,b,c..) Click :OK");
+  var upperInput = confirm("To Include Uppercase.e.g(A,B,C..) Click OK");
+  var numericInput = confirm("To Include Numbers.e.g(1,2,3..) Click: OK");
+  var sprecialInput = confirm("To Include Special Characters.e.g(!,~,/..) Click: OK");
 
 
 
