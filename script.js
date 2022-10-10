@@ -31,10 +31,22 @@ function generatePassword() {
   // Get user input 
 
   var large = prompt("Choose a length of at least 8 characters and no more than 128 characters");
+
+  //Alert if input doesn't meet the criteria 
+
+  if (~~large < 8 || ~~large > 128) {
+    alert("Invalid Value")
+    return "";
+  }
+
+
   var lowerInput = confirm("To Include lowecase. Click :OK");
   var upperInput = confirm("To Include UPPERCASE. Click OK");
   var numericInput = confirm("To Include numbers. Click: OK");
   var sprecialInput = confirm("To Include Special Characters. Click: OK");
+
+
+ 
 
 
   /*converts lenght string into a number*/
