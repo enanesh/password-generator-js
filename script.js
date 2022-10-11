@@ -32,7 +32,7 @@ function generatePassword() {
 
   // Get user input 
 
-  var large = prompt("Choose a length of at least 8 characters and no more than 128 characters");
+  var large = prompt("Choose a length for your password(At least 8 characters and no more than 128 characters).");
 
   //Alert if input doesn't meet the criteria 
 
