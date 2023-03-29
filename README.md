@@ -1,4 +1,4 @@
-# password-generator-jvs
+# password-generator-jv
 
 
 
@@ -18,7 +18,7 @@ As an employee with access to sensitive data I create a random password generato
 ### Step 1:
 
 ```sh
-git clone https://github.com/enanesh/password-generator-jvs.git
+git clone https://github.com/enanesh/password-generator-jv.git
 git status 
 ```
 
